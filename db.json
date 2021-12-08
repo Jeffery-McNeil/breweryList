@@ -1,0 +1,53 @@
+{
+    "breweries": [
+        {
+            "id": 1,
+            "name": "Rahr & Sons Brewing Company",
+            "image": "./assets/brewery/rahrAndSons.jpg",
+            "likes": 0,
+            "info": "Taproom located inside the brewery, featuring rotating food trucks and collectible glasses",
+            "comments": ["My favorite", "The Best"]
+        },
+        {
+            "id": 2,
+            "name": "Martin House Brewing Company",
+            "image": "./assets/brewery/martinHouse.jpg",
+            "info": "Craft beer makers that open to the public Thursdays & Saturdays for tours, tastings & live music.",
+            "likes": 0,
+            "comments": [""]
+        },
+        {
+            "id": 3,
+            "name": "Deep Ellum Brewing Company",
+            "image": "./assets/brewery/deepEllumBrewing.jpg",
+            "likes": 0,
+            "info": "Tap room & brewery for a variety of craft beers, also offering a food menu & a large outdoor patio.",
+            "comments": [""]
+        },
+        {
+            "id": 4,
+            "name": "Peticolas Brewing Company",
+            "image": "./assets/brewery/peticolasBrewing.jpg",
+            "likes": 0,
+            "info": "Laid-back, 3-level taproom in a former warehouse offering a rotating list of housemade craft brews.",
+            "comments": []
+        },
+        {
+            "id": 5,
+            "name": "Bishop Cider Co.",
+            "image": "./assets/brewery/bishopCider.jpg",
+            "likes": 0,
+            "info": "House-brewed ciders are on tap at this casual stop, along with domestic & imported bottles & cans.",
+            "comments": [""]
+        },
+        {
+            "id": 6,
+            "name": "Four Corners Brewing Company",
+            "image": "./assets/brewery/fourCornersBrewing.jpg",
+            "likes": 0,
+            "info": "Urban craft brewery in a former carriage house, with guided tours & a taproom hosting weekly events.",
+            "comment": [""]
+        }
+    ]
+    
+}

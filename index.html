@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Brewery List</title>
+        <script defer type="text/javascript" src="./index.js"></script>
+    </head>
+    <body>
+        <h1>Brewery List</h1>
+        <div class="black-border" id="brewery-list-container">
+            <ul id ="breweryList">
+            <!--list breweries here-->
+            </ul>
+        </div class="black-border">
+        <div>
+            <img id="brewery-image" src= " ">
+            <h3 id="brewery-name"></h3>
+            <span id ="brewery-address"></span>
+            <span id="brewery-info"></span>
+
+            <h3>Comments</h3>
+            <div id="comments-container">
+                <!--comments here-->
+            </div>
+        </div>
+        <div class="black-border" id="suggestion-button-container">
+            <btn id="suggestion-button" type="button">Suggest a brewery!</btn>
+            <h3 id="suggestion-name"></h3>
+            <p id="suggestion-address"></p>
+            <p id="suggestion-city"></p>
+            <p id="suggestion-state"></p>
+        </div>
+        <div class="black-border" id="add-comment-container">
+            <form id="addComment">
+                <h3>Add a comment.</h3>
+                <label for="newComment">Comment: </label>
+                <textarea name="newComment" id="newComment"></textarea>
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+    </body>
+
+</html>
