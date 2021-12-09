@@ -1,0 +1,96 @@
+body {
+    background-color: darkslategray;
+}
+
+.black-border{
+    background-color: darkgoldenrod;
+    border: solid;
+    border-width: 4px;
+}
+
+#title-card{
+    width: 500px;
+    position: absolute;
+    right: 30%;
+    top: 0px
+}
+
+#brewery-list-container{
+    width: 500px;
+    position: relative;
+    top: 13px;
+    height: 500px; 
+}
+
+#brewery-container{
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    right: 30%;
+    bottom: 10%
+}
+
+#suggestion-button-container{
+    width: 500px;
+    height: 225px;
+    position: relative;
+}
+
+#add-comment-container{
+    width: 500px;
+    position: absolute;
+    right: 30%;
+    bottom: 0%;
+}
+
+#add-brewery-container{
+    width: 500px;
+    height: 212px;
+    position: relative;
+}
+
+#newInfo{
+    margin-top: 10px;
+    position: relative;
+}
+
+#brewery-image{
+    width: 500px;
+    height: 400px;
+}
+
+#beer-list-container{
+    width: 425px;
+    height: 835px;
+    position: absolute;
+    right: 0.4%;
+    top: 2.2%;
+
+}
+
+#suggestion-button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: green;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#suggestion-button:hover {
+    background-color: green;
+}
+
+#suggestion-button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

@@ -1,53 +1,156 @@
 {
-    "breweries": [
-        {
-            "id": 1,
-            "name": "Rahr & Sons Brewing Company",
-            "image": "./assets/brewery/rahrAndSons.jpg",
-            "likes": 0,
-            "info": "Taproom located inside the brewery, featuring rotating food trucks and collectible glasses",
-            "comments": ["My favorite", "The Best"]
-        },
-        {
-            "id": 2,
-            "name": "Martin House Brewing Company",
-            "image": "./assets/brewery/martinHouse.jpg",
-            "info": "Craft beer makers that open to the public Thursdays & Saturdays for tours, tastings & live music.",
-            "likes": 0,
-            "comments": [""]
-        },
-        {
-            "id": 3,
-            "name": "Deep Ellum Brewing Company",
-            "image": "./assets/brewery/deepEllumBrewing.jpg",
-            "likes": 0,
-            "info": "Tap room & brewery for a variety of craft beers, also offering a food menu & a large outdoor patio.",
-            "comments": [""]
-        },
-        {
-            "id": 4,
-            "name": "Peticolas Brewing Company",
-            "image": "./assets/brewery/peticolasBrewing.jpg",
-            "likes": 0,
-            "info": "Laid-back, 3-level taproom in a former warehouse offering a rotating list of housemade craft brews.",
-            "comments": []
-        },
-        {
-            "id": 5,
-            "name": "Bishop Cider Co.",
-            "image": "./assets/brewery/bishopCider.jpg",
-            "likes": 0,
-            "info": "House-brewed ciders are on tap at this casual stop, along with domestic & imported bottles & cans.",
-            "comments": [""]
-        },
-        {
-            "id": 6,
-            "name": "Four Corners Brewing Company",
-            "image": "./assets/brewery/fourCornersBrewing.jpg",
-            "likes": 0,
-            "info": "Urban craft brewery in a former carriage house, with guided tours & a taproom hosting weekly events.",
-            "comment": [""]
-        }
-    ]
-    
+  "breweries": [
+    {
+      "id": 1,
+      "name": "Rahr & Sons Brewing Company",
+      "image": "./assets/brewery/rahrAndSons.jpg",
+      "street": "701 Galveston Ave",
+      "city": "Fort Worth",
+      "state":"Texas",
+      "info": "Taproom located inside the brewery, featuring rotating food trucks and collectible glasses",
+      "comments": [
+        "My favorite to visit in the area"
+      ],
+      "beers": [
+          "Adios Pantalones",
+          "Paleta De Mango", 
+          "Dadgum IPA",
+          "Rahr's Original",
+          "Texas Red",
+          "Rahr's Blonde",
+          "Rahr Che Lada",
+          "Iron Thistle",
+          "Hazy Hefe",
+          "Oktoberfest",
+          "BarrelFest",
+          "Winter Warmer",
+          "Angry Santa",
+          "Drunken Santa",
+          "Rumpy"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Martin House Brewing Company",
+      "image": "./assets/brewery/martinHouse.jpg",
+      "info": "Craft beer makers that open to the public Thursdays & Saturdays for tours, tastings & live music.",
+      "street": "220 S Sylvania Ave #209",
+      "city":"Fort Worth",
+      "state": "Texas",
+      "comments": [
+        "Make some excellent beer"
+      ],
+      "beers": [
+          "Best Maid Sour Pickle Beer",
+          "Bockslider",
+          "Friday IPA",
+          "True Love",
+          "The Imperial Texan",
+          "Martin House Pils",
+          "The Salty Lady"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Deep Ellum Brewing Company",
+      "image": "./assets/brewery/deepEllumBrewing.jpg",
+      "street": "2823 St Louis St",
+      "city": "Dallas",
+      "state": "Texas",
+      "info": "Tap room & brewery for a variety of craft beers, also offering a food menu & a large outdoor patio.",
+      "comments": [
+        "Not my favorite, but still good"
+      ],
+      "beers": [
+          "Dallas Blonde",
+          "Deep Ellum IPA",
+          "DTX Golden Ale",
+          "Neato Bandito",
+          "Easy Peasy IPA",
+          "Dream Crusher",
+          "Manic Confidence",
+          "Play Date",
+          "Hop Seeker Series",
+          "Decadence Pilsner",
+          "Cadillac Bandito",
+          " Deep Winter"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Peticolas Brewing Company",
+      "image": "./assets/brewery/peticolasBrewing.jpg",
+      "street": "1301 Pace St",
+      "city": "Dallas",
+      "state": "Texas",
+      "info": "Laid-back, 3-level taproom in a former warehouse offering a rotating list of housemade craft brews.",
+      "comments": [
+        "Just make great beer"
+      ],
+      "beers": [
+          "Velvet Hammer",
+          "Golden Oppurtunity",
+          "Sit Down Or I'll Sit You Down",
+          "Wintervention",
+          "Come And Take It",
+          "Great Scot",
+          "Rumble In Russia",
+          "Turn Out The Lights",
+          "Worth The Wait",
+          "Don't Think It - Won't Happen",
+          "Royal Scandal",
+          "Main Squeeze",
+          "Not With That Attitude",
+          "Don't Be Scared",
+          "Black Curtains",
+          "Ghost Of Alfred Brown"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bishop Cider Co.",
+      "image": "./assets/brewery/bishopCider.jpg",
+      "street": "509 N Bishop Ave",
+      "city": "Dallas",
+      "state": "Texas",
+      "info": "House-brewed ciders are on tap at this casual stop, along with domestic & imported bottles & cans.",
+      "comments": [
+        "I know it's cider, not beer, but its still good! And the cidercade is very rad"
+      ],
+      "beers": [
+          "Pecan Pie",
+          "Apple Pineapple",
+          "Crackberry",
+          "The Dark Cide",
+          "Texas Tea",
+          "Nectar", 
+          "Tiger's Blood",
+          "Texas Strawberry",
+          "Peach Tea"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Four Corners Brewing Company",
+      "image": "./assets/brewery/fourCornersBrewing.jpg",
+      "street": "1311 S Ervay St",
+      "city": "Dallas",
+      "state": "Texas",
+      "info": "Urban craft brewery in a former carriage house, with guided tours & a taproom hosting weekly events.",
+      "comments": [
+        "A big fan of their beer, I actually knew a guy who was friends with the brewmaster"
+      ],
+      "beers": [
+          "El Grito",
+          "El Chingon",
+          "Local Buzz",
+          "Heart O' Texas",
+          "El Super Bee",
+          "El Mas Chingon",
+          "Queen Bee",
+          "La Chingona",
+          "La Lechuza"
+      ]
+    }
+  ]
 }

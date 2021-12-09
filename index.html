@@ -2,25 +2,47 @@
 <html lang="en" dir="ltr">
     <head>
         <title>Brewery List</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
         <script defer type="text/javascript" src="./index.js"></script>
     </head>
     <body>
-        <h1>Brewery List</h1>
+        <h1 class="black-border" id="title-card">Brewery List</h1>
         <div class="black-border" id="brewery-list-container">
+            <h3>Brewery List</h3>
             <ul id ="breweryList">
             <!--list breweries here-->
             </ul>
         </div class="black-border">
-        <div>
+        <div class="black-border" id="brewery-container">
             <img id="brewery-image" src= " ">
             <h3 id="brewery-name"></h3>
-            <span id ="brewery-address"></span>
-            <span id="brewery-info"></span>
+            <p id ="brewery-address"></p>
+            <p id="brewery-city"></p>
+            <p id="brewery-state"></p>
+            <p id="brewery-info"></p>
 
             <h3>Comments</h3>
             <div id="comments-container">
                 <!--comments here-->
             </div>
+        </div>
+        <div class= "black-border" id="add-brewery-container">
+            <form id="newBrewery">
+                <h4>Add New Brewery</h4>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="newName" />
+                <label for="image">Image: </label>
+                <input type="text" name="image" id="newImage" />
+                <label for="address">Address: </label>
+                <input type="text" name="address" id="newAddress" />
+                <label for="city">City: </label>
+                <input type="text" name="city" id="newCity" />
+                <label for="address">State: </label>
+                <input type="text" name="state" id="newState" />
+                <label for="info">Info: </label>
+                <input type="text" name="info" id="newInfo"></input>
+                <input type="submit" value="Create" />
+              </form>
         </div>
         <div class="black-border" id="suggestion-button-container">
             <btn id="suggestion-button" type="button">Suggest a brewery!</btn>
@@ -36,6 +58,12 @@
                 <textarea name="newComment" id="newComment"></textarea>
                 <input type="submit" value="submit" />
             </form>
+        </div>
+        <div class= "black-border" id="beer-list-container">
+            <h3>Beer List</h3>
+            <ul id="beer-list">
+                <!--List beers here-->
+            </ul>
         </div>
     </body>
 
